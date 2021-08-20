@@ -17,6 +17,8 @@
 		0D7CF1BB26D013130042BB7B /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CF1BA26D013130042BB7B /* CoinLogoView.swift */; };
 		0D7CF1BE26D026F90042BB7B /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CF1BC26D026F90042BB7B /* PortfolioContainer.xcdatamodeld */; };
 		0D7CF1C026D027AE0042BB7B /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CF1BF26D027AE0042BB7B /* PortfolioDataService.swift */; };
+		0D7CF1C226D048270042BB7B /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CF1C126D048270042BB7B /* HapticManager.swift */; };
+		0D7CF1C726D0690C0042BB7B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7CF1C626D0690C0042BB7B /* DetailView.swift */; };
 		0D8B8F8726C97CCE00241F13 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B8F8626C97CCE00241F13 /* HomeView.swift */; };
 		0D8B8F8B26C97DBF00241F13 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B8F8A26C97DBF00241F13 /* CircleButtonView.swift */; };
 		0D8B8F8D26C9804100241F13 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B8F8C26C9804100241F13 /* CircleButtonAnimationView.swift */; };
@@ -53,6 +55,8 @@
 		0D7CF1BA26D013130042BB7B /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		0D7CF1BD26D026F90042BB7B /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		0D7CF1BF26D027AE0042BB7B /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		0D7CF1C126D048270042BB7B /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		0D7CF1C626D0690C0042BB7B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0D8B8F8626C97CCE00241F13 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0D8B8F8A26C97DBF00241F13 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		0D8B8F8C26C9804100241F13 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
@@ -139,9 +143,34 @@
 			path = Extentions;
 			sourceTree = "<group>";
 		};
+		0D7CF1C326D068C00042BB7B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0D7CF1C526D068EB0042BB7B /* Views */,
+				0D7CF1C426D068D80042BB7B /* ViewModels */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		0D7CF1C426D068D80042BB7B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0D7CF1C526D068EB0042BB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D7CF1C626D0690C0042BB7B /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0D8B8F8226C97C8C00241F13 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0D7CF1C326D068C00042BB7B /* Detail */,
 				0D8B8F8826C97D9600241F13 /* Components */,
 				0D8B8F8326C97CA700241F13 /* Home */,
 			);
@@ -224,6 +253,7 @@
 			children = (
 				0D8B8F9D26C9B67100241F13 /* NetworkingManager.swift */,
 				0D8B8FA626C9D14400241F13 /* LocalFileManager.swift */,
+				0D7CF1C126D048270042BB7B /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -339,6 +369,8 @@
 				0D8B8F8B26C97DBF00241F13 /* CircleButtonView.swift in Sources */,
 				0D64318526C974A700EEE6FB /* Color.swift in Sources */,
 				0D8B8FAA26C9DB6C00241F13 /* SearchBarView.swift in Sources */,
+				0D7CF1C726D0690C0042BB7B /* DetailView.swift in Sources */,
+				0D7CF1C226D048270042BB7B /* HapticManager.swift in Sources */,
 				0DA5355426CC3C1D00554C51 /* MarketDataMdoel.swift in Sources */,
 				0D8B8F9E26C9B67100241F13 /* NetworkingManager.swift in Sources */,
 				0D7CF1BB26D013130042BB7B /* CoinLogoView.swift in Sources */,
