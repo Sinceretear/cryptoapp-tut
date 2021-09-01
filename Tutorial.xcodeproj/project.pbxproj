@@ -46,6 +46,7 @@
 		0D8C2C9726DAAC7500B44D0B /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2C9626DAAC7500B44D0B /* SubscriberBootcamp.swift */; };
 		0D8C2C9D26DEB73400B44D0B /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2C9C26DEB73400B44D0B /* CoreDataBootcamp.swift */; };
 		0D8C2CA026DEBAC100B44D0B /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2C9E26DEBAC100B44D0B /* FruitsContainer.xcdatamodeld */; };
+		0D8C2CA226E03B2000B44D0B /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2CA126E03B2000B44D0B /* DownloadWithCombine.swift */; };
 		0DA5354926C9E0FA00554C51 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354826C9E0FA00554C51 /* UIApplication.swift */; };
 		0DA5354B26CC2ED500554C51 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354A26CC2ED500554C51 /* StatisticModel.swift */; };
 		0DA5355026CC302100554C51 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354F26CC302100554C51 /* StatisticView.swift */; };
@@ -96,6 +97,7 @@
 		0D8C2C9626DAAC7500B44D0B /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		0D8C2C9C26DEB73400B44D0B /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		0D8C2C9F26DEBAC100B44D0B /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		0D8C2CA126E03B2000B44D0B /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		0DA5354826C9E0FA00554C51 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		0DA5354A26CC2ED500554C51 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		0DA5354F26CC302100554C51 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 				0D7CF1E426D57F480042BB7B /* AnimationBootcamp.swift */,
 				0D8C2C9C26DEB73400B44D0B /* CoreDataBootcamp.swift */,
 				0D8C2C9E26DEBAC100B44D0B /* FruitsContainer.xcdatamodeld */,
+				0D8C2CA126E03B2000B44D0B /* DownloadWithCombine.swift */,
 			);
 			path = "SwiftUI Bootcamp";
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				0D8B8F8D26C9804100241F13 /* CircleButtonAnimationView.swift in Sources */,
 				0D8B8FA526C9C7E900241F13 /* CoinImageViewModel.swift in Sources */,
 				0D7CF1D626D3163B0042BB7B /* String.swift in Sources */,
+				0D8C2CA226E03B2000B44D0B /* DownloadWithCombine.swift in Sources */,
 				0D8C2CA026DEBAC100B44D0B /* FruitsContainer.xcdatamodeld in Sources */,
 				0D8B8F9426C98DC300241F13 /* PreviewProvider.swift in Sources */,
 				0D7CF1B726D00E7A0042BB7B /* PortfolioView.swift in Sources */,
