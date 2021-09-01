@@ -44,6 +44,8 @@
 		0D8B8FA726C9D14400241F13 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B8FA626C9D14400241F13 /* LocalFileManager.swift */; };
 		0D8B8FAA26C9DB6C00241F13 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B8FA926C9DB6C00241F13 /* SearchBarView.swift */; };
 		0D8C2C9726DAAC7500B44D0B /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2C9626DAAC7500B44D0B /* SubscriberBootcamp.swift */; };
+		0D8C2C9D26DEB73400B44D0B /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2C9C26DEB73400B44D0B /* CoreDataBootcamp.swift */; };
+		0D8C2CA026DEBAC100B44D0B /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2C9E26DEBAC100B44D0B /* FruitsContainer.xcdatamodeld */; };
 		0DA5354926C9E0FA00554C51 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354826C9E0FA00554C51 /* UIApplication.swift */; };
 		0DA5354B26CC2ED500554C51 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354A26CC2ED500554C51 /* StatisticModel.swift */; };
 		0DA5355026CC302100554C51 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354F26CC302100554C51 /* StatisticView.swift */; };
@@ -92,6 +94,8 @@
 		0D8B8FA626C9D14400241F13 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		0D8B8FA926C9DB6C00241F13 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		0D8C2C9626DAAC7500B44D0B /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
+		0D8C2C9C26DEB73400B44D0B /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
+		0D8C2C9F26DEBAC100B44D0B /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		0DA5354826C9E0FA00554C51 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		0DA5354A26CC2ED500554C51 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		0DA5354F26CC302100554C51 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
@@ -161,7 +165,6 @@
 				0DA5354826C9E0FA00554C51 /* UIApplication.swift */,
 				0D7CF1D326D30AD10042BB7B /* Date.swift */,
 				0D7CF1D526D3163B0042BB7B /* String.swift */,
-				0D7CF1E426D57F480042BB7B /* AnimationBootcamp.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -334,6 +337,9 @@
 			isa = PBXGroup;
 			children = (
 				0D8C2C9626DAAC7500B44D0B /* SubscriberBootcamp.swift */,
+				0D7CF1E426D57F480042BB7B /* AnimationBootcamp.swift */,
+				0D8C2C9C26DEB73400B44D0B /* CoreDataBootcamp.swift */,
+				0D8C2C9E26DEBAC100B44D0B /* FruitsContainer.xcdatamodeld */,
 			);
 			path = "SwiftUI Bootcamp";
 			sourceTree = "<group>";
@@ -446,8 +452,10 @@
 				0D8B8F8D26C9804100241F13 /* CircleButtonAnimationView.swift in Sources */,
 				0D8B8FA526C9C7E900241F13 /* CoinImageViewModel.swift in Sources */,
 				0D7CF1D626D3163B0042BB7B /* String.swift in Sources */,
+				0D8C2CA026DEBAC100B44D0B /* FruitsContainer.xcdatamodeld in Sources */,
 				0D8B8F9426C98DC300241F13 /* PreviewProvider.swift in Sources */,
 				0D7CF1B726D00E7A0042BB7B /* PortfolioView.swift in Sources */,
+				0D8C2C9D26DEB73400B44D0B /* CoreDataBootcamp.swift in Sources */,
 				0D8B8F9626C9904100241F13 /* Double.swift in Sources */,
 				0D8B8FA326C9C65400241F13 /* CoinImageService.swift in Sources */,
 				0D7CF1CC26D2DAA50042BB7B /* CoinDetailModel.swift in Sources */,
@@ -653,6 +661,16 @@
 			);
 			currentVersion = 0D7CF1BD26D026F90042BB7B /* PortfolioContainer.xcdatamodel */;
 			path = PortfolioContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		0D8C2C9E26DEBAC100B44D0B /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D8C2C9F26DEBAC100B44D0B /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 0D8C2C9F26DEBAC100B44D0B /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
