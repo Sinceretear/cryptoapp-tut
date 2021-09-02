@@ -48,6 +48,7 @@
 		0D8C2CA026DEBAC100B44D0B /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2C9E26DEBAC100B44D0B /* FruitsContainer.xcdatamodeld */; };
 		0D8C2CA226E03B2000B44D0B /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2CA126E03B2000B44D0B /* DownloadWithCombine.swift */; };
 		0D8C2CA426E1243700B44D0B /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2CA326E1243700B44D0B /* FileManagerBootcamp.swift */; };
+		0D8C2CA626E1618D00B44D0B /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C2CA526E1618D00B44D0B /* CacheBootcamp.swift */; };
 		0DA5354926C9E0FA00554C51 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354826C9E0FA00554C51 /* UIApplication.swift */; };
 		0DA5354B26CC2ED500554C51 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354A26CC2ED500554C51 /* StatisticModel.swift */; };
 		0DA5355026CC302100554C51 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5354F26CC302100554C51 /* StatisticView.swift */; };
@@ -100,6 +101,7 @@
 		0D8C2C9F26DEBAC100B44D0B /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		0D8C2CA126E03B2000B44D0B /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 		0D8C2CA326E1243700B44D0B /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
+		0D8C2CA526E1618D00B44D0B /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
 		0DA5354826C9E0FA00554C51 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		0DA5354A26CC2ED500554C51 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		0DA5354F26CC302100554C51 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 				0D8C2C9E26DEBAC100B44D0B /* FruitsContainer.xcdatamodeld */,
 				0D8C2CA126E03B2000B44D0B /* DownloadWithCombine.swift */,
 				0D8C2CA326E1243700B44D0B /* FileManagerBootcamp.swift */,
+				0D8C2CA526E1618D00B44D0B /* CacheBootcamp.swift */,
 			);
 			path = "SwiftUI Bootcamp";
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				0D64317526C96BA700EEE6FB /* TutorialApp.swift in Sources */,
 				0DA5354926C9E0FA00554C51 /* UIApplication.swift in Sources */,
 				0D8B8F8B26C97DBF00241F13 /* CircleButtonView.swift in Sources */,
+				0D8C2CA626E1618D00B44D0B /* CacheBootcamp.swift in Sources */,
 				0D7CF1DF26D32A1A0042BB7B /* LaunchView.swift in Sources */,
 				0D64318526C974A700EEE6FB /* Color.swift in Sources */,
 				0D8B8FAA26C9DB6C00241F13 /* SearchBarView.swift in Sources */,
