@@ -22,7 +22,7 @@ struct TutorialApp: App {
         WindowGroup {
 //            ZStack {
 //                NavigationView{
-                    CacheBootcamp()
+                    DownloadingImagesBootcamp()
 //                        .navigationBarHidden(true)
 //                }
 //                .environmentObject(vm)
